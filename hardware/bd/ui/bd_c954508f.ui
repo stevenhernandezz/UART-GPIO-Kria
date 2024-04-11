@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.646837",
+   "Default View_TopLeft":"-70,-666",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port uart_rtl -pg 1 -lvl 4 -x 1440 -y -400 -defaultsOSRD
+preplace port led -pg 1 -lvl 4 -x 1440 -y -440 -defaultsOSRD
+preplace port btn -pg 1 -lvl 4 -x 1440 -y -420 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 280 -y -70 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 1 -x 280 -y -240 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -x 1220 -y -210 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 2 -x 820 -y -250 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 280 -y -380 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 3 -x 1220 -y -440 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 820 -y -520 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -40 -480 590 -390 1060
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 1 640 -270n
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 3 -50 -490 630J -420 1010
+preplace netloc axi_uartlite_0_interrupt 1 1 1 600 -530n
+preplace netloc axi_gpio_0_ip2intc_irpt 1 1 1 580 -510n
+preplace netloc xlconcat_0_dout 1 2 1 1050 -520n
+preplace netloc axi_intc_0_irq 1 0 4 -60 -500 640J -430 990J -580 1370
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 2 630J -350 990
+preplace netloc ps8_0_axi_periph_M00_AXI 1 0 4 -30 -470 620J -440 1000J -540 1380
+preplace netloc axi_uartlite_0_UART 1 1 3 610J -410 1040J -550 1400J
+preplace netloc axi_gpio_0_GPIO 1 1 3 NJ -400 1030J -560 1410J
+preplace netloc axi_gpio_0_GPIO2 1 1 3 NJ -380 1020J -570 1420J
+preplace netloc ps8_0_axi_periph_M01_AXI 1 0 4 -20 -460 610J -450 1010J -530 1390
+preplace netloc ps8_0_axi_periph_M02_AXI 1 2 2 1070 -50 1370
+levelinfo -pg 1 -80 280 820 1220 1440
+pagesize -pg 1 -db -bbox -sgen -80 -590 1540 180
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_board_cnt":"3",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
