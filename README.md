@@ -1,5 +1,5 @@
 # UART-GPIO-Kria
-This project demonstrates a simple AXI-UART IP integration on Zynq UltraScale+ MPSoC on the Kria KR260 board.
+This project demonstrates a simple AXI-UART IP integration on Zynq UltraScale+ MPSoC on the Xilinx Kria kv260 development board.
  
 ## Description
 For this project I created a software application to:
