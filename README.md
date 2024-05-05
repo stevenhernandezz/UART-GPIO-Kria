@@ -17,6 +17,7 @@ For this project I created a software application to:
   
 ### Software
 * https://www.xilinx.com/products/design-tools/vitis.html
+* https://www.xilinx.com/products/design-tools/vivado.html
   
 ### Author
 * Steven Hernandez
